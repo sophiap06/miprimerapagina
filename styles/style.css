@@ -1,0 +1,184 @@
+body{
+    background-color: rgb(181, 149, 188);
+    color: rgb(227, 7, 102);
+}
+h1{
+    font-family: 'Arial', sans-serif;  
+    font-size: 25px;       
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+}
+h2{
+    font-size: 24px;
+    padding: 5px; /*contenido y borde*/
+    margin: 20px;
+}
+
+.ejemplo {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+
+/*Codigo barra de navegacion*/
+.container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: rgb(69, 0, 74);
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  li>a {
+    padding: 8px 24px;
+  }
+  
+  
+  li {
+    list-style-type: none;
+  }
+  
+  
+  a {
+    color: white;
+    text-decoration:none;
+  }
+  
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .button-menu-toggle {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+  
+  
+    .nav-links {
+      display: none;
+    }
+  
+  
+    .button-menu-toggle {
+      display: block;
+      background-color: white;
+      border:none;
+      border-radius: 50px;
+      padding: 0 24px;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 20px;
+    }
+   
+    .nav-links.nav-links-responsive {
+      position: absolute;
+      display: flex;
+      background-color: rgba(20,20,20,0.95);
+      width: 100%;
+      height: 100%;
+      top: 70px;
+      left: 0;
+      flex-direction: column;
+      padding-top: 200px;
+      align-items: center;
+      gap:70px;
+      font-size: 40px;
+  
+  
+    }
+  }
+
+  /*imagenes about*/
+  .about-img  {
+    
+    justify-content: center;
+  
+    display:contents;
+  }
+  
+  .about-imagene  {
+    max-width: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  header {
+    background-color: #5c049f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  nav a:hover {
+    color: #ff0180;
+  }
+
+
+  @media (max-width: 767px) {
+    header  {
+        background-color: #810094;
+    }
+  }
+
+  @media (max-width: 767px) {
+    nav{
+        font-size: 50px;     /*Es para cuando se pone pequeña la pag el numero de la letra se pone mas grande*/
+    }
+  }
+
+  @media (min-width:1200px) {
+    header  {
+        width: 1200px;
+    }
+  }
