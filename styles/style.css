@@ -25,6 +25,12 @@ h2{
 }
 
 
+
+
+.greeting  { 
+  text-align: center;
+}
+
 /*Codigo barra de navegacion*/
 .container-nav {
     display: flex;
